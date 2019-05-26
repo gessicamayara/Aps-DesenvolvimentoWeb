@@ -14,7 +14,6 @@ import br.com.locadoravideogames.dao.ClienteDAO;
  
 import br.com.locadoravideogames.entity.Cliente;
 
-
 @SuppressWarnings("serial")
 @ViewScoped
 @ManagedBean
@@ -34,7 +33,6 @@ public class ClienteBean implements Serializable{
 				
 			cliente = new Cliente();
 			clientes = clienteDAO.listar();
-			
 			
 			Messages.addFlashGlobalInfo("Cliente salvo com sucesso!");
 			
